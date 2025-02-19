@@ -1,0 +1,6 @@
+services:
+  imdb_api:
+    build: .
+    ports:
+      - "5001:5001"
+    restart: always
